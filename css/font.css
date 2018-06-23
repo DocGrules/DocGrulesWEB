@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Finger+Paint');
+
+/* font-family: 'Finger Paint', cursive; */
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+/* font-family: 'Titillium Web', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* https://fonts.google.com/ */

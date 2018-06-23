@@ -1,0 +1,212 @@
+#center {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+h1 {
+    margin: 0;
+    color: #000000;
+    font-size: 16pt;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(img/logo-musica.png);
+    padding: 5px;
+}
+
+h2 {
+    border-style: 2px;
+    border-color: #000000;
+    margin-top: 30px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 30px;
+    margin: 0;
+    color: black;
+    text-align: justify;
+    font-size: 12pt;
+    text-indent: 1cm;
+    line-height: 150%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+p1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 30px;
+    margin: 0;
+    color: black;
+    text-align: center;
+    font-size: 12pt;
+    text-indent: 1cm;
+    line-height: 150%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+body {
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 490px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: backgroud-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+}
+
+
+/* -- CONFIGURAÇÃO MEIO BODY PRINCIPAL -- */
+
+#meio {
+    width: 960px;
+    background-color: #e7d6d66c;
+    margin: 0;
+}
+
+
+/* -- FIM - CONFIGURAÇÃO MEIO BODY PRINCIPAL -- */
+
+
+/* -- CONFIGURAÇÃO MEIO BODY OUTRAS ABAS -- */
+
+#meio-abas {
+    width: 960px;
+    background-color: #e7d6d6bd;
+    margin: 0;
+}
+
+
+/* -- FIM - CONFIGURAÇÃO MEIO BODY OUTRAS ABAS -- */
+
+
+/* -- CONFIGURAÇÃO RODAPÉ -- */
+
+#rodape {
+    color: #000000;
+    margin: 30px 0;
+    padding: 160px 0;
+    text-align: center;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 90px;
+}
+
+
+/* -- FIM - CONFIGURAÇÃO RODAPÉ -- */
+
+
+/* -- CONFIGURAÇÃO DAS IMAGENS PADRONIZADAS DOS MUSICOS -- */
+
+.modimg img {
+    max-width: 200px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.modimg {
+    clear: both;
+    margin-top: 20px;
+}
+
+img {
+    vertical-align: top
+}
+
+
+/* -- FIM - CONFIGURAÇÃO DAS IMAGENS PADRONIZADAS DOS MUSICOS -- */
+
+
+/* -- CONFIGURAÇÃO FALE-CONOSCO -- */
+
+.contato-form {
+    background-color: #887d7d8f;
+    padding: 50px 0px;
+    margin-top: 20px;
+}
+
+form.aulaweb-form {
+    max-width: 650px;
+    margin: 0px auto;
+}
+
+form.aulaweb-form input {
+    width: 100%;
+    margin: 5px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    color: #887d7d8f;
+    font-weight: bold;
+    text-align: center;
+}
+
+form.aulaweb-form textarea {
+    padding: 5px;
+    border: none;
+    color: #887d7d8f;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    min-height: 120px;
+    margin: 5px;
+}
+
+form.aulaweb-form input[type="submit"] {
+    background: rgb(3, 162, 167);
+    color: #FFF;
+    font-size: 18px;
+    width: 140px;
+    border-radius: 2px;
+}
+
+form.aulaweb-form input[type="submit"]:hover {
+    background: rgba(2, 127, 158, 0.322);
+    color: rgb(255, 255, 255);
+}
+
+
+/* -- FIM - CONFIGURAÇÃO FALE-CONOSCO -- */

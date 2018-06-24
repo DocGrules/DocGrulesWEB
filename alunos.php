@@ -7,7 +7,7 @@ require_once('verificasessao.php');
 
     <div class="page-header" align="center">
         <img src="img/logo-doctum.png" align="center" class="img-responsive" alt="Responsive image" width="125" height="105">
-        <h1>Aluno</h1>
+        <h1>Alunos</h1>
     </div>
 
 <?php include 'nav.php'; ?>

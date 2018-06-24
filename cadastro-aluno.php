@@ -19,10 +19,6 @@ include('carrega-aluno.php');
 	
 
 <div class="container">
-	<div class="row">
-		<h1> Cadastre-se</h1>
-		<hr>
-	</div>
 
 	<form method="post" action="cad-aluno.php">
 

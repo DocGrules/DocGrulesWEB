@@ -11,7 +11,6 @@
         <link rel="stylesheet" href="print.css" type="text/css" media="print">
         <link href="css/font.css" rel="stylesheet">
 		<link rel="stylesheet" href="lib\css\fontawesome-all.css" >
-        
 
         <!-- CSS
         <link rel="stylesheet" type="text/css" href="css/modelo.css"> -->

@@ -29,6 +29,16 @@ echo "			<th style='width: 15px'> <a href='cadastro-evento.php?operacao=1' style
 echo "		</tr>";
 echo "	</thead>";
 echo "<tbody>";
+
+	/* -- TENTANDO APLICAR O SOAP --
+		$soapclient = new SoapClient('192.168.0.7:8080/grules-soap-sever/EventoWebService?wsdl');
+		$response = $soapclient->loadAllEvento();
+		
+		//var_dump($response);
+
+
+
+		 echo "<script>console.log('$response');</script>";*/
 require_once("conexao.php");
 if (!$conn->connect_error){
 	$sql = "SELECT evento_id, tema, semestre FROM evento";

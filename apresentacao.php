@@ -42,6 +42,10 @@ if (!$conn->connect_error){
 			<td style='text-align: right;'>
 			<a href='delete-apresentacao.php?id=" .  $row["apresentacao_id"] . "'><i style='color: red;' class='fas fa-trash'></i></a>
 			</td>
+			</tr>
+			<td style='text-align: left;'>
+			<a href='todosalunos.php?id=" .  $row["apresentacao_id"] . "'><i style='color: green;' class='fas fa-plus'></i></a>
+			</td>
 			</tr>";
 		}
 	} else {

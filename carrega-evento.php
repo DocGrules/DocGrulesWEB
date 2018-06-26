@@ -30,7 +30,14 @@ switch ($operacao) {
             $cd_semestre = $row["semestre"];
  			$cd_tema = $row["tema"];
  		}
- 	}
+	 }
+	 
+	 	/* -- TENTANDO APLICAR O SOAP --
+		 $soapclient = new SoapClient('192.168.0.7:8080/grules-soap-sever/EventoWebService?wsdl');
+		 $response = $soapclient->loadAllEvento();
+		 var_dump($response);
+		 */
+		 
  	break;
 
  } 

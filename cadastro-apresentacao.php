@@ -2,7 +2,7 @@
 require_once('verificasessao.php');
 $title = 'Cadastrar Apresentação';
 $currentPage = 'cadastro-apresentacao';
-include('carrega-apresentacao.php');
+require_once('carrega-apresentacao.php');
 ?>
 
 <?php include('head.php'); ?>
@@ -67,12 +67,14 @@ include('carrega-apresentacao.php');
 				</select>
 				</div>
 			
-				<div class="col-sm-6">
+				<!--<div class="col-sm-6">
 				<label>Alunos</label><br/>
+				<a href="todosalunos.php">Selecione os alunos</a>
 				<select required="true" class="form-control" name="alunos_id" multiple="mltiple">
-					<option value="null"> - Selecione os alunos da apresentação - </option>
+					<option value="null"> - Selecione os alunos da apresentação - </option> -->
 					<?php
-					require_once('carregatodosalunos.php');
+					/*
+					require_once('carregatodosalunosapresentacao.php');
 					if ($alunos->num_rows > 0) {
 						while($rowedi = $alunos->fetch_assoc()) {
 
@@ -83,15 +85,19 @@ include('carrega-apresentacao.php');
 							}
 
 						}
-					} 
+					}
+					*/
 					?>
 				</select>
 				</div>
+				
 		</div>
 
 		<br></br>
- 
-			<div class="form-group" align="center">
+	
+		</div>
+	</div>
+	<div class="form-group" align="center">
 				<button type="submit" class="btn btn-lg btn-success"> 
 					<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 					Enviar dados
@@ -100,9 +106,6 @@ include('carrega-apresentacao.php');
 				<a href="apresentacao.php"> Cancelar
 				</a>
 			</div>
-	
-		</div>
-	</div>
 	</form>
 </div>
 </div>

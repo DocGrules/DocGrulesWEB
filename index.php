@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 <?php include('head.php'); ?>
 <div class="container">
     <div class="row vertical-offset-100">
@@ -12,10 +10,10 @@
 			    	<form action="verificalogin.php" method="POST" class="form_login">
                     <fieldset>
 			    	  	<div class="form-group">
-			    		    <input class="form-control" placeholder="E-mail" name="txtusuario" type="text">
+			    		    <input class="form-control" placeholder="E-mail" name="txtusuario" type="text" required>
 			    		</div>
 			    		<div class="form-group">
-			    			<input class="form-control" placeholder="Password" name="txtsenha" type="password" value="">
+			    			<input class="form-control" placeholder="Password" name="txtsenha" type="password" value="" required>
 			    		</div>
 			    		<div class="checkbox">
 			    	    	<label>

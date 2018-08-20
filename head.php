@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> GRULES &copy </title>
-        <link rel="icon" type="image/png" href="img/logo-doctum.png">
+        <link rel="icon" type="image/png" href="img/logo.png">
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="print.css" type="text/css" media="print">
         <link href="css/font.css" rel="stylesheet">

@@ -1,5 +1,10 @@
 <?php include('head.php'); ?>
+
+<div class="page-header" align="center">
+        <img src="img/logo.png" align="center" class="img-responsive" alt="Responsive image" width="125" height="105">
+    </div>
 <div class="container">
+
     <div class="row vertical-offset-100">
     	<div class="col-md-4 col-md-offset-4">
     		<div class="panel panel-default">

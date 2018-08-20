@@ -8,7 +8,7 @@ require_once('carrega-apresentacao.php');
 <?php include('head.php'); ?>
 
     <div class="page-header" align="center">
-        <img src="img/logo-doctum.png" align="center" class="img-responsive" alt="Responsive image" width="125" height="105">
+        <img src="img/logo.png" align="center" class="img-responsive" alt="Responsive image" width="125" height="105">
         <h1>Apresentação</h1>
     </div>
 
